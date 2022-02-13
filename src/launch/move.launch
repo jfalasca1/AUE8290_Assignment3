@@ -1,0 +1,9 @@
+<launch>
+
+   <node pkg = "move_base" type = "move_base" name= "turtlebot3_gazebo" />
+
+   <node pkg = "assignment3_ws"  type = "circle.py" name= "circle" />
+   
+   <node pkg = "assignment3_ws"  type = "square.py" name= "square" />
+
+</launch>
